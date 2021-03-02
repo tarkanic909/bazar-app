@@ -37,9 +37,11 @@ function CartContextProvider({ children }) {
     changeQuantity.current(id, quantity);
   }
 
-  function removeItem(id) {
+  const removeItem = useRef();
+
+  removeItem.current = (id) => {
     dispach({ type: actions.REMOVE_ITEM, payload: id });
-  }
+  };
 
   const updateCart = useRef();
 
