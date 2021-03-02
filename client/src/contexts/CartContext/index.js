@@ -60,6 +60,7 @@ function CartContextProvider({ children }) {
       type: actions.CHANGE_QUANTITY,
       payload: { id, quantity },
     });
+    saveItems.current();
   };
 
   function getItem(id) {
