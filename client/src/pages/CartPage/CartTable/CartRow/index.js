@@ -8,7 +8,7 @@ function CartRow({ item: { id, name, price, quantity, img } }) {
   const { removeItem } = useContext(CartContext);
 
   function handleRemove() {
-    removeItem(id);
+    removeItem.current(id);
   }
 
   return (

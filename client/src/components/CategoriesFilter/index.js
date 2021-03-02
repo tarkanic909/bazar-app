@@ -23,7 +23,7 @@ function CategoriesFilter({ setContent }) {
                   category={category}
                   subcategories={category.subcategories}
                   onClick={() => {
-                    changeTitle(category.category);
+                    changeTitle.current(category.category);
                     filterByCategory(category.category);
                   }}
                 />

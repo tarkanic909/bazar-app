@@ -1,11 +1,15 @@
-import React, { createContext, useReducer, useRef } from "react";
-import { isInCart } from "../../services/products";
+import React, { createContext, useReducer, useRef, useEffect } from "react";
+import { getTotal, isInCart } from "../../services/products";
 import cartReducer from "./cartReducer";
 import actions from "./actions";
 
 export const CartContext = createContext();
 
-const initialState = { items: [], total: 0, isUpdate: false };
+const items = localStorage.getItem("cart")
+  ? JSON.parse(localStorage.getItem("cart"))
+  : [];
+const total = getTotal(items);
+const initialState = { items, total, isUpdate: false };
 
 function CartContextProvider({ children }) {
   const [state, dispach] = useReducer(cartReducer, initialState);
@@ -65,6 +69,20 @@ function CartContextProvider({ children }) {
     }
     return null;
   }
+
+  const saveItems = useRef();
+
+  saveItems.current = () => {
+    console.log(state.items);
+    localStorage.setItem(
+      "cart",
+      JSON.stringify(state.items > 0 ? items : state.items)
+    );
+  };
+
+  useEffect(() => {
+    saveItems.current(state.items);
+  }, [state.items, saveItems]);
 
   return (
     <CartContext.Provider

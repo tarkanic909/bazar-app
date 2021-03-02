@@ -15,7 +15,7 @@ function CartViewItem({ item }) {
           <button
             className="Cart-view-item__remove"
             onClick={() => {
-              removeItem(item.id);
+              removeItem.current(item.id);
             }}
           >
             × Remove

@@ -1,21 +1,17 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { ProductsContext } from "../../contexts/ProductsContext";
-import PageTitle from "../../shared/PageTitle";
 
 function SearchedProducts() {
-  const { searchProduct } = useContext(ProductsContext);
+  const { searchProduct, changeTitle } = useContext(ProductsContext);
   const { searchedProduct } = useParams();
 
   useEffect(() => {
     searchProduct.current(searchedProduct);
-  }, [searchedProduct, searchProduct]);
+    changeTitle.current(`search results: "${searchedProduct}"`);
+  }, [searchedProduct, searchProduct, changeTitle]);
 
-  return (
-    <>
-      <PageTitle>search results: "{searchedProduct}"</PageTitle>
-    </>
-  );
+  return <></>;
 }
 
 export default SearchedProducts;

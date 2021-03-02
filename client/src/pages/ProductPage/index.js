@@ -7,9 +7,7 @@ import Loading from "../../shared/Loading";
 
 function ProductPage() {
   const { id } = useParams();
-  const [error, product, isLoading] = useFetch(
-    `http://localhost:3004/products/${id}`
-  );
+  const [error, product, isLoading] = useFetch(`/api/products/${id}`);
 
   return (
     <FetchError error={error}>

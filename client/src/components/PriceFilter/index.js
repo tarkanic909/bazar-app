@@ -19,7 +19,7 @@ function PriceFilter() {
             <FilterWidgetItem
               category={{ category: `${category[0]} - ${category[1]} $` }}
               onClick={() => {
-                changeTitle("shop");
+                changeTitle.current("shop");
                 filterByPrice(category);
               }}
             />

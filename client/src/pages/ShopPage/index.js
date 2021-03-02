@@ -19,15 +19,11 @@ function ShopPage() {
     filteredProducts,
     itemsPerPage
   );
-  const setTitle = useRef();
-
-  setTitle.current = () => {
-    changeTitle("shop");
-  };
 
   useEffect(() => {
-    if (products.length === filteredProducts.length) setTitle.current();
-  }, [filteredProducts.length, products.length, setTitle]);
+    if (products.length === filteredProducts.length)
+      changeTitle.current("shop");
+  }, [filteredProducts.length, products.length, changeTitle]);
 
   return (
     <div className="shop-page">
@@ -35,9 +31,8 @@ function ShopPage() {
         <ShopPageSidebar />
       </div>
       <div className="shop-page__content">
-        <Route path="/shop" exact>
-          <PageTitle>{title}</PageTitle>
-        </Route>
+        <PageTitle>{title}</PageTitle>
+        <Route path="/shop" exact></Route>
         <Route path="/shop/search/:searchedProduct">
           <SearchedProducts />
         </Route>

@@ -8,7 +8,7 @@ function FilterWidgetSubitem({ subcategory }) {
     <span
       className="filter-widget-subitem"
       onClick={() => {
-        changeTitle(subcategory);
+        changeTitle.current(subcategory);
         filterByCategory(subcategory);
       }}
     >
