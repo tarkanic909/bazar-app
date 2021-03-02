@@ -5,9 +5,7 @@ import FilterWidgetItem from "../../shared/FilterWidget/FilterWidgetItem";
 import Loading from "../../shared/Loading";
 
 function CategoriesFilter({ setContent }) {
-  const [error, categories, isLoading] = useFetch(
-    "http://localhost:3004/categories"
-  );
+  const [error, categories, isLoading] = useFetch("/api/categories");
   const { filterByCategory, changeTitle } = useContext(ProductsContext);
 
   useEffect(() => {
