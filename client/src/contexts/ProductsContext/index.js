@@ -47,7 +47,9 @@ function ProductsContextProvider({ children }) {
     dispatch({ type: actions.CHANGE_TITLE, payload: title });
   }
 
-  const [errorProducts, products, isLoadingProducts] = useFetch("/products");
+  const [errorProducts, products, isLoadingProducts] = useFetch(
+    "/api/products"
+  );
 
   useEffect(() => {
     dispatch({ type: actions.FETCH_PRODUCTS, payload: products });

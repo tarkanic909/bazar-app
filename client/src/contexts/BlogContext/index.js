@@ -17,7 +17,7 @@ function BlogContextProvider({ children }) {
   const fetchPost = useRef(() => {});
 
   fetchPost.current = (id) => {
-    const post = fetchApi(`/posts/${id}`);
+    const post = fetchApi(`/api/posts/${id}`);
     post
       .then((post) => {
         dispatch({ type: actions.FETCH_POST, payload: post });
@@ -29,7 +29,7 @@ function BlogContextProvider({ children }) {
 
   useEffect(() => {
     dispatch({ type: actions.IS_LOADING, payload: true });
-    const posts = fetchApi("/posts");
+    const posts = fetchApi("/api/posts");
     posts
       .then((posts) => {
         dispatch({ type: actions.FETCH_POSTS, payload: posts });
