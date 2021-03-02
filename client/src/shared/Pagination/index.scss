@@ -1,0 +1,65 @@
+.Pagination__prev {
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  margin-right: 5px;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/images/bg-pagination.png")
+    top repeat-x;
+  border-radius: 3px;
+  line-height: 28px;
+  color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.Pagination__prev:hover {
+  background-position: 0 -29px;
+  cursor: pointer;
+}
+
+.Pagination__next {
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  margin-right: 5px;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/images/bg-pagination.png")
+    top repeat-x;
+  border-radius: 3px;
+  line-height: 28px;
+  color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.Pagination__next:hover {
+  background-position: 0 -29px;
+  cursor: pointer;
+}
+
+.Pagination__button {
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  margin-right: 5px;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/images/bg-pagination.png")
+    top repeat-x;
+  border-radius: 3px;
+  line-height: 28px;
+  color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.Pagination__button:hover {
+  cursor: pointer;
+  background-position: 0 -29px;
+  color: #999;
+}
+
+.Pagination__button--active {
+  background-position: 0 -58px;
+  color: #fff;
+}

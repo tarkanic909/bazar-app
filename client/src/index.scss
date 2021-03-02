@@ -1,0 +1,115 @@
+@font-face {
+  font-family: oswald;
+  src: url("//themes.googleusercontent.com/static/fonts/oswald/v8/PyqsDANUgLi2UsdO-d4iZQ.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: oswald;
+  src: url("//themes.googleusercontent.com/static/fonts/oswald/v8/dI-qzxlKVQA6TUC5RKSb3z8E0i7KZn-EPnyo3HZu7kw.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Play";
+  src: url("https://fonts.gstatic.com/s/play/v12/6aez4K2oVqwIvtU2Hw.woff2")
+    format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC,
+    U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF,
+    U+FFFD;
+}
+
+:root {
+  --main-font-lighter: #909091;
+  --main-font-light: #747373;
+  --main-font-dark: #373736;
+  --main-font-white: #f7f7f7;
+  --border-color: #e0dfdf;
+  --bg-color: #f1f1f1;
+  --orange: #c58408;
+  --orange-font: #cc9833;
+  --orange-font-hover: #cc9833;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+span,
+p,
+h2,
+h3 {
+  line-height: 20px;
+  font-weight: 400;
+}
+
+html {
+  font-size: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-font-light);
+}
+
+h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: var(--main-font-dark);
+  font-size: 1.4rem;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+.heading {
+  margin-bottom: 20px;
+  color: var(--main-font-dark);
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 400;
+}
+
+.heading--orange {
+  color: #be8a0c;
+}
+
+.heading--border {
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.phone-hidden {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.border {
+  height: 1px;
+  padding-bottom: 2px;
+  border: 1px solid var(--border-color);
+  border-width: 0 0 1px;
+}
+
+.border--strong {
+  border-width: 0 0 4px;
+}

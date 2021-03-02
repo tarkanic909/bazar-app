@@ -1,0 +1,119 @@
+.product-thumbnail {
+  // min-width: 270px;
+  margin-bottom: 40px;
+  transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  @media (min-width: 768px) {
+    width: 94%;
+    left: 0%;
+    position: relative;
+  }
+}
+
+.product-thumbnail:hover {
+  width: 112%;
+  left: -9.2%;
+  z-index: 4000;
+  box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.11);
+  .product-thumbnail__hidden {
+    visibility: visible;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.11);
+  }
+}
+
+.product-thumbnail__group {
+  position: relative;
+  padding: 7px 7px 0 7px;
+  margin: 0 auto;
+  border: 1px solid var(--border-color);
+}
+
+.product-thumbnail__group::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.product-thumbnail__img {
+  width: 100%;
+}
+
+.product-thumbnail__meta {
+  margin-top: 7px;
+  margin-bottom: 13px;
+  font-size: 1.4rem;
+}
+
+.product-thumbnail__heading {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.product-thumbnail__hidden {
+  @media (min-width: 768px) {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: 1px solid var(--border-color);
+    border-top: 0;
+    background-color: #fff;
+  }
+}
+
+.product-thumbnail__button:hover {
+  cursor: pointer;
+}
+
+.product-thumbnail__actions {
+  padding-top: 18px;
+  margin: 0 -7px;
+}
+
+.product-thumbnail__action {
+  display: block;
+  position: relative;
+  width: 25%;
+  float: left;
+  padding-top: 26px;
+  border-left: 1px solid #e0dfdf;
+  //   color: #828282;
+  font-family: "open sans", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.product-thumbnail__action:hover {
+  // color: #010101;
+  background-position: center -40px;
+}
+
+.product-thumbnail__action:first-child {
+  border-left: 0;
+}
+
+.product-thumbnail__details {
+  @extend .product-thumbnail__action;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/woocommerce/images/loop-zoom.png")
+    center 10px no-repeat;
+}
+
+.product-thumbnail__wishlist {
+  @extend .product-thumbnail__action;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/woocommerce/images/loop-heart.png")
+    center 10px no-repeat;
+}
+
+.product-thumbnail__compare {
+  @extend .product-thumbnail__action;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/woocommerce/images/loop-eye.png")
+    center 10px no-repeat;
+}
+
+.product-thumbnail__share {
+  @extend .product-thumbnail__action;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/woocommerce/images/loop-share.png")
+    center 10px no-repeat;
+}

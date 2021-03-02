@@ -1,0 +1,46 @@
+.cta-widget {
+  margin-bottom: 20px;
+}
+
+.cta-widget__text {
+  margin-bottom: 20px;
+  //   color: #4f4d4d;
+  font-family: play, sans-serif;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.cta-widget__field {
+  width: 100%;
+  height: 40px;
+  padding: 1px 0px 1px 40px;
+  border: 1px solid #cfcfcf;
+  border-radius: 0;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/theme/assets/images/newsletter-widget.png")
+    7px center no-repeat;
+  text-transform: uppercase;
+  color: #555555;
+  font-family: play, sans-serif;
+  font-size: 1.2rem;
+  line-height: 20px;
+}
+
+.cta-widget__submit {
+  padding: 3px 20px;
+  margin-top: 10px;
+  background-color: #c27d05;
+  border: 0;
+  color: #fff;
+  font-family: oswald, sans-serif;
+  text-transform: uppercase;
+}
+
+.cta-widget__submit:hover {
+  background-color: #e79c0c;
+  cursor: pointer;
+}
+
+.cta-widget__submit-wrapper {
+  display: flex;
+  justify-content: right;
+}

@@ -1,0 +1,27 @@
+.cart-totals {
+  @media (min-width: 768px) {
+    width: 570px;
+  }
+  width: 100%;
+}
+
+.cart-totals__wrapper {
+  padding: 5px;
+}
+
+.cart-totals__heading {
+  padding-left: 50px;
+  line-height: 27px;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/woocommerce/images/multistep_cart.png")
+    no-repeat left;
+}
+.cart-totals__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-family: play, sans-serif;
+}
+
+.cart-totals__price {
+  font-weight: 700;
+}

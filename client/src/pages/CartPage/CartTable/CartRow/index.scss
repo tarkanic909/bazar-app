@@ -1,0 +1,30 @@
+.cart-row__quantity-changer {
+  justify-content: center;
+  margin: 0;
+  padding: 9px 0;
+}
+.cart-row__quantity-changer .quantity-changer__form {
+  margin: 0;
+}
+.cart-row__remove {
+  width: 16px;
+  height: 16px;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/woocommerce/images/remove.png")
+    #dfdbdf;
+}
+
+.cart-row__remove:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.cart-row__image {
+  width: 32px;
+}
+.cart-row__link {
+  color: #995d08;
+}
+
+.cart-row__link:hover {
+  color: #d98104;
+}

@@ -1,0 +1,65 @@
+.TestimonialWidget {
+  position: relative;
+  color: #4f4d4d;
+  text-align: left;
+  overflow: hidden;
+  width: 290px;
+}
+
+.TestimonialWidget__content {
+  margin-bottom: 20px;
+  font-family: play, sans-serif;
+  font-size: 11px;
+}
+
+.TestimonialWidget__author {
+  padding-left: 20px;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/theme/assets/images/testimonial-quote.png")
+    left center no-repeat;
+  color: #909091;
+  font-size: 14px;
+}
+
+.TestimonialWidget__nav {
+  display: flex;
+  list-style-type: none;
+}
+
+.TestimonialWidget__prev {
+  width: 15px;
+  height: 17px;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/theme/assets/images/slider-arrow-testimonial.png")
+    left center no-repeat;
+  text-indent: -9999px;
+}
+
+.TestimonialWidget__next {
+  width: 15px;
+  height: 17px;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/theme/assets/images/slider-arrow-testimonial.png")
+    right center no-repeat;
+  text-indent: -9999px;
+}
+
+.TestimonialWidget__prev:hover,
+.TestimonialWidget__next:hover {
+  cursor: pointer;
+}
+
+/* Slider */
+.slider {
+  display: flex;
+  /* width: calc(100% * 4); */
+  width: 100%;
+  transform: translateX(-100%);
+  // transition: transform 1s ease-in-out 1s;
+  // transition-delay: 4s;
+  /* overflow: hidden; */
+}
+
+.slide {
+  /* background-color: #fff; */
+  /* width: 292px; */
+  /* min-width: 100%; */
+  min-width: 290px;
+}

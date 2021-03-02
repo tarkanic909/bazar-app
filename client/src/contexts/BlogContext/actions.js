@@ -1,0 +1,8 @@
+const actions = {
+  FETCH_ERROR: "FETCH_ERROR",
+  IS_LOADING: "IS_LOADING",
+  FETCH_POSTS: "FETCH_POSTS",
+  FETCH_POST: "FETCH_POST",
+  FETCH_TESTIMONIALS: "FETCH_TESTIMONIALS",
+};
+export default actions;

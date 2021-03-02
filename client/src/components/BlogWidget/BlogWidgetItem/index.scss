@@ -1,0 +1,33 @@
+.blog-widget-item {
+  display: flex;
+}
+
+.blog-widget-item__border {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid var(--border-color);
+  text-align: left;
+}
+
+.blog-widget-item__thumb {
+  float: left;
+  padding-right: 10px;
+}
+
+.blog-widget-item__marginTop {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-widget-item__link {
+  //   color: #4f4d4d;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.blog-widget-item__author {
+  //   color: #909091;
+  font-size: 1.3rem;
+  font-family: play, sans-serif;
+}

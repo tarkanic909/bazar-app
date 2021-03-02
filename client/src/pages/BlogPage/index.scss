@@ -1,0 +1,22 @@
+.blog-page {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-areas: "title title" "content sidebar";
+    justify-content: space-between;
+    gap: 30px;
+  }
+}
+
+.blog-page__title {
+  grid-area: title;
+}
+
+.blog-page__content {
+  grid-area: content;
+  max-width: 870px;
+}
+
+.blog-page__sidebar {
+  grid-area: sidebar;
+  max-width: 270px;
+}

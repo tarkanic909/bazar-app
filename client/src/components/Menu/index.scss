@@ -1,0 +1,27 @@
+.menu {
+  padding: 12px 0;
+  display: flex;
+  @media (min-width: 768px) {
+    justify-content: start;
+  }
+  justify-content: space-around;
+  border-top: 1px solid var(--border-color);
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.menu__item {
+  @media (min-width: 768px) {
+    padding-right: 20px;
+  }
+  line-height: 22px;
+}
+
+.menu__item:hover {
+  color: var(--orange-font);
+}
+
+.menu__item--active,
+.menu__item--active:hover {
+  color: var(--main-font-dark);
+}

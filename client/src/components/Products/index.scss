@@ -1,0 +1,10 @@
+.products {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-area: items;
+    grid-template-columns: repeat(3, minmax(166px, 270px));
+    grid-template-rows: repeat(4);
+    justify-content: space-between;
+    column-gap: 20px;
+  }
+}

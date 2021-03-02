@@ -1,0 +1,33 @@
+.search-widget {
+  position: relative;
+  margin: 10px 0;
+}
+
+.search-widget__field {
+  width: 90%;
+  height: 50px;
+  padding: 12px 45px 11px 13px;
+  border: 1px solid var(--border-color);
+  border-radius: 0;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/woocommerce/images/header-search-mini.png")
+    no-repeat right center;
+  text-transform: uppercase;
+  // color: #555555;
+  font-family: oswald, sans-serif;
+  font-size: 1.8rem;
+  line-height: 50px;
+}
+
+.search-widget__submit {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 67%;
+  right: auto;
+  border: 0;
+  background: transparent;
+}
+
+.search-widget__submit:hover {
+  cursor: pointer;
+}

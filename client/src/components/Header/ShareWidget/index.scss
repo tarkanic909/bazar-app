@@ -1,0 +1,82 @@
+.share-widget {
+  padding-top: 24px;
+  padding-bottom: 18px;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
+.share-widget__label {
+  padding-right: 20px;
+  line-height: 23px;
+}
+
+.share-widget__link {
+  margin: 0 1px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  padding: 0 1px;
+  text-indent: -9999px;
+  vertical-align: top;
+  line-height: 23px;
+}
+
+.share-widget__link:hover {
+  cursor: pointer;
+}
+
+.share-widget__facebook {
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/images/icons/socials-small/socials-small.png")
+    no-repeat scroll -22px bottom transparent;
+}
+
+.share-widget__facebook:hover {
+  background-position: -22px top;
+}
+
+.share-widget__rss {
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/images/icons/socials-small/socials-small.png")
+    no-repeat scroll -132px bottom transparent;
+}
+
+.share-widget__rss:hover {
+  background-position: -132px top;
+}
+
+.share-widget__twitter {
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/images/icons/socials-small/socials-small.png")
+    no-repeat scroll -198px bottom transparent;
+}
+
+.share-widget__twitter:hover {
+  background-position: -198px top;
+}
+
+.share-widget__google {
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/images/icons/socials-small/socials-small.png")
+    no-repeat scroll -66px bottom transparent;
+}
+
+.share-widget__google:hover {
+  background-position: -66px top;
+}
+
+.share-widget__linkedin {
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/images/icons/socials-small/socials-small.png")
+    no-repeat scroll -88px bottom transparent;
+}
+
+.share-widget__linkedin:hover {
+  background-position: -88px top;
+}
+
+.share-widget__pinterest {
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/images/icons/socials-small/socials-small.png")
+    no-repeat scroll -110px bottom transparent;
+}
+
+.share-widget__pinterest:hover {
+  background-position: -110px top;
+}

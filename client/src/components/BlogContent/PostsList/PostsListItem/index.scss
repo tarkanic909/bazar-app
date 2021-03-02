@@ -1,0 +1,32 @@
+.post-list-item {
+  display: flex;
+  margin-bottom: 13px;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--main-font-dark);
+}
+
+.post-list-item__marginTop {
+  display: flex;
+  padding-left: 15px;
+  border-left: 1px solid var(--border-color);
+  flex-direction: column;
+  text-align: left;
+}
+
+.post-list-item__link {
+  color: var(--main-font-dark);
+  padding-top: 5px;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+
+.post-list-item__link:hover {
+  color: var(--orange-font-hover);
+}
+
+.post-list-item__author {
+  color: var(--main-font-lighter);
+  font-size: 1.3rem;
+  font-family: play, sans-serif;
+}

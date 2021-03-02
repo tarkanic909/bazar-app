@@ -1,0 +1,63 @@
+.cart-widget {
+  position: relative;
+  color: var(--main-font-dark);
+}
+
+.cart-widget__items {
+  display: inline-block;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/woocommerce/images/header-cart.png")
+    7px 7px no-repeat;
+  border: 1px solid var(--border-color);
+  padding: 14px 6px 7px 0px;
+  padding-left: 48px;
+  font-size: 3rem;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.cart-widget__number {
+  float: left;
+  padding-bottom: 7px;
+  font-weight: 700;
+}
+
+.cart-widget__label {
+  display: block;
+  float: left;
+  padding-left: 10px;
+  font-size: 1.4rem;
+}
+
+.cart-widget__total {
+  display: inline-block;
+  padding: 14px 6px 2px 6px;
+  margin-left: -1px;
+  border: 1px solid var(--border-color);
+  font-size: 3rem;
+  vertical-align: top;
+}
+
+.cart-widget__currency {
+  display: block;
+  float: left;
+  padding-left: 5px;
+  padding-bottom: 7px;
+  margin-top: 5px;
+  font-size: 1.5rem;
+}
+
+.cart-widget__integer {
+  display: block;
+  float: left;
+  padding-bottom: 7px;
+  font-weight: 700;
+}
+
+// .cart-widget__decimal {
+//   display: block;
+//   float: left;
+//   padding-left: 1px;
+//   padding-bottom: 7px;
+//   margin-top: -8px;
+//   font-size: 14px;
+// }

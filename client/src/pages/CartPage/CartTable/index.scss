@@ -1,0 +1,25 @@
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #7e8183;
+  font-family: play, sans-serif;
+}
+
+.cart-table__thead {
+  color: #2e2d2d;
+  font-family: play, sans-serif;
+  font-weight: 700;
+}
+
+.cart-table th {
+  padding: 9px 0;
+}
+
+.cart-table td:nth-child(2),
+th:nth-child(2) {
+  text-align: left;
+}
+
+.cart-table__tr {
+  border-bottom: 1px solid var(--border-color);
+}

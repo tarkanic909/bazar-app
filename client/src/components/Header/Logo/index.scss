@@ -1,0 +1,28 @@
+.logo {
+  padding-top: 10px;
+  margin-bottom: 12px;
+  font-size: 4.8rem;
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.logo__link {
+  display: inline-block;
+  margin: 20px 0 12px;
+  color: var(--main-font-dark);
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.logo__span {
+  color: var(--orange-font);
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.logo__text {
+  font-family: play, sans-serif;
+  font-size: 17px;
+}

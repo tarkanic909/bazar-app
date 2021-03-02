@@ -1,0 +1,52 @@
+.header {
+  margin-bottom: 20px;
+}
+
+.header__areas {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-areas:
+      "logo cart-search"
+      "logo cart-search"
+      "widget share"
+      "menu menu";
+  }
+  @media (min-width: 980px) {
+    display: grid;
+    grid-template-areas:
+      "logo widget cart-search"
+      "logo share cart-search"
+      "menu menu menu";
+  }
+}
+
+.header__logo {
+  grid-area: logo;
+}
+
+.header__widget {
+  grid-area: widget;
+}
+
+.header__cart-search {
+  grid-area: cart-search;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// .header__cart {
+//   grid-area: cart-search;
+// }
+
+// .header__search {
+//   grid-area: cart-search;
+// }
+
+.header__share {
+  grid-area: share;
+}
+
+.header__menu {
+  grid-area: menu;
+}

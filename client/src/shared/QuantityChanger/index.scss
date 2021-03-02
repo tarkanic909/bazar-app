@@ -1,0 +1,38 @@
+.quantity-changer {
+  display: flex;
+  margin: 20px 0;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.quantity-changer__form {
+  margin-right: 10px;
+}
+.quantity-changer__button {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  background: #dbdada;
+  border-radius: 0;
+  border: 1px solid #dfdbdb;
+  //   font-size: 1.8rem;
+  font-weight: 700;
+  //   line-height: 30px;
+}
+
+.quantity-changer__button:hover {
+  cursor: pointer;
+}
+
+.quantity-changer__input {
+  width: 40px;
+  height: 30px;
+  margin: 0;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  border-radius: 0;
+  -moz-appearance: textfield;
+  //   font-size: 1.8rem;
+  font-weight: 700;
+  //   line-height: 30px;
+}

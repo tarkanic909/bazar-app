@@ -1,0 +1,215 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bag",
+      "price": 19,
+      "xbImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/bag2-924x784.jpg",
+      "bImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/bag2-462x426.jpg",
+      "img": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/bag2-254x203.jpg",
+      "best_seller": "true",
+      "special_offers": "true",
+      "category": "bag",
+      "subcategory": "classic bag",
+      "description": "Phasellus egestas, nunc non consectetur hendrerit, risus mauris cursus velit, et condimentum nisi enim in eros. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget.",
+      "colors": ["#598fbf", "#2459b5"]
+    },
+    {
+      "id": 2,
+      "name": "74 Brand",
+      "price": 38,
+      "bImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0910-462x361.jpg",
+      "img": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0910-254x203.jpg",
+      "must_have": "true",
+      "best_seller": "true",
+      "special_offers": "true",
+      "category": "shoes",
+      "description": "Phasellus egestas, nunc non consectetur hendrerit, risus mauris cursus velit, et condimentum nisi enim in eros. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget.",
+      "colors": ["#598fbf"]
+    },
+    {
+      "id": 3,
+      "name": "Black Skulls",
+      "price": 35,
+      "bImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/02-black-462x308.jpg",
+      "img": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/02-black-254x203.jpg",
+      "must_have": "true",
+      "category": "clothes",
+      "description": "Phasellus egestas, nunc non consectetur hendrerit, risus mauris cursus velit, et condimentum nisi enim in eros. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget.",
+      "colors": ["#000"]
+    },
+    {
+      "id": 4,
+      "name": "Ankle Shoes",
+      "price": 39,
+      "bImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0114-924x784.jpg",
+      "img": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0114-254x203.jpg",
+      "special_offers": "true",
+      "category": "shoes",
+      "description": "Phasellus egestas, nunc non consectetur hendrerit, risus mauris cursus velit, et condimentum nisi enim in eros. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget.",
+      "colors": ["#598fbf"]
+    },
+    {
+      "id": 5,
+      "name": "Creative Shirt",
+      "price": 52,
+      "bImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/221-462x361.jpg",
+      "img": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/221-254x203.jpg",
+      "must_have": "true",
+      "special_offers": "true",
+      "category": "clothes",
+      "description": "Phasellus egestas, nunc non consectetur hendrerit, risus mauris cursus velit, et condimentum nisi enim in eros. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget.",
+      "colors": ["#81d742"]
+    },
+    {
+      "id": 6,
+      "name": "Man Glasses",
+      "price": 37,
+      "bImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0610-462x361.jpg",
+      "img": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0610-254x203.jpg",
+      "best_seller": "true",
+      "category": "glasses",
+      "description": "Phasellus egestas, nunc non consectetur hendrerit, risus mauris cursus velit, et condimentum nisi enim in eros. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget.",
+      "colors": []
+    },
+    {
+      "id": 7,
+      "name": "Polo shirt",
+      "price": 79,
+      "bImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/101-462x361.jpg",
+      "img": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/101-254x203.jpg",
+      "must_have": "true",
+      "best_seller": "true",
+      "category": "clothes",
+      "description": "Phasellus egestas, nunc non consectetur hendrerit, risus mauris cursus velit, et condimentum nisi enim in eros. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget.",
+      "colors": ["#000"]
+    },
+    {
+      "id": 8,
+      "name": "Right left shirt",
+      "price": 120,
+      "bImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/101-462x361.jpg",
+      "img": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/04x-254x203.jpg",
+      "must_have": "true",
+      "special_offers": "true",
+      "category": "clothes",
+      "description": "Phasellus egestas, nunc non consectetur hendrerit, risus mauris cursus velit, et condimentum nisi enim in eros. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget.",
+      "colors": ["#dd3333", "#e28f12"]
+    },
+    {
+      "id": 9,
+      "name": "Shoes",
+      "price": 67,
+      "bImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0512-462x361.jpg",
+      "img": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0512-254x203.jpg",
+      "special_offers": "true",
+      "category": "shoes",
+      "description": "Phasellus egestas, nunc non consectetur hendrerit, risus mauris cursus velit, et condimentum nisi enim in eros. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget.",
+      "colors": []
+    },
+    {
+      "id": 10,
+      "name": "Sneakers",
+      "price": 10,
+      "bImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0811-462x361.jpg",
+      "img": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0811-254x203.jpg",
+      "special_offers": "true",
+      "category": "shoes",
+      "description": "Phasellus egestas, nunc non consectetur hendrerit, risus mauris cursus velit, et condimentum nisi enim in eros. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget.",
+      "colors": ["#000"]
+    },
+    {
+      "id": 11,
+      "name": "Sport bag",
+      "price": 32,
+      "bImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0319-462x308.jpg",
+      "img": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0319-254x203.jpg",
+      "category": "bag",
+      "subcategory": "sport bag",
+      "description": "Phasellus egestas, nunc non consectetur hendrerit, risus mauris cursus velit, et condimentum nisi enim in eros. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget.",
+      "colors": ["#2459b5"]
+    },
+    {
+      "id": 12,
+      "name": "Walking shoes",
+      "price": 47,
+      "bImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0710-462x361.jpg",
+      "img": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/0710-254x203.jpg",
+      "special_offers": "true",
+      "category": "shoes",
+      "description": "Phasellus egestas, nunc non consectetur hendrerit, risus mauris cursus velit, et condimentum nisi enim in eros. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget.",
+      "colors": ["#598fbf"]
+    },
+    {
+      "id": 13,
+      "name": "Woman glasses",
+      "price": 40,
+      "bImg": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/oc2-462x426.jpg",
+      "img": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/oc2-254x203.jpg",
+      "special_offers": "true",
+      "category": "glasses",
+      "description": "Phasellus egestas, nunc non consectetur hendrerit, risus mauris cursus velit, et condimentum nisi enim in eros. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget. Nam ullamcorper neque non erat elementum vulputate. Nullam dignissim lobortis interdum. Donec nisi est, tempus eget.",
+      "colors": []
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "date": "10-dec-2020",
+      "title": "this is the title of first article. enjoy it.",
+      "content": "We are sorry but Adobe Flash© is not supported on your device.<br/>Nulla facilisi. In volutpat, orci id eleifend ultrices, eros nisi pellentesque erat, eget dapibus urna orci eu nisi. Pellentesque arcu nisi, pellentesque nec gravida quis, fringilla eget mi. In malesuada placerat diam at posuere.<br/>Morbi non aliquet felis. Nullam lectus risus, pretium eu rhoncus quis, ultrices et dolor. Nullam non vulputate est. Curabitur nunc ipsum, tincidunt nec bibendum eget, porta eu metus. In hendrerit varius justo non euismod. Etiam at nisi est, non tincidunt turpis.<br/>Cras eget sem vitae velit cursus pulvinar in a urna arcu nisi, pellentesque nec gravida quis, fringilla eget mi. In malesuada placerat diam at posuere lorem concordia. <br/>Sed pretium risus in ipsum placerat placerat. Integer lobortis felis varius metus bibendum congue. Vivamus sit amet felis lacus. Nullam vel lacus urna, ac facilisis justo. Nunc laoreet nunc sed justo hendrerit a gravida dolor lobortis.<br/>Pellentesque bibendum iaculis egestas. Aliquam consectetur pellentesque tempus. Proin at velit tellus, nec gravida tortor. Duis dui dolor, placerat et porta et, sodales quis sapien. Nam imperdiet pretium pulvinar. Sed quis dui mi. Donec cursus sagittis turpis, auctor vestibulum magna sodales aliquet. Duis in turpis quis leo pretium euismod et sed erat. Vivamus quis risus ac elit volutpat vestibulum. Mauris auctor vehicula elit eu vehicula. Nullam libero ipsum, suscipit et blandit quis, dignissim id nunc. Donec vitae nibh nulla. Quisque congue sapien sed lorem interdum pharetra. Mauris dignissim, ipsum nec imperdiet consequat, dolor nunc luctus magna, nec elementum velit lectus a neque. Cras tristique, risus et tempor pulvinar, massa leo fringilla ante, eu feugiat urna nunc at sapien.<br/>",
+      "author": "oscar",
+      "image": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/011.jpg",
+      "thumb": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/011-75x75.jpg"
+    },
+    {
+      "id": 2,
+      "date": "22-dec-2020",
+      "title": "this is the title of second article. enjoy it.",
+      "content": "Nulla facilisi. In volutpat, orci id eleifend ultrices, eros nisi pellentesque erat, eget dapibus urna orci eu nisi. Pellentesque arcu nisi, pellentesque nec gravida quis, fringilla eget mi. In malesuada placerat diam at posuere.<br/>Morbi non aliquet felis. Nullam lectus risus, pretium eu rhoncus quis, ultrices et dolor.<br/>Cras eget sem vitae velit cursus pulvinar in a urna arcu nisi, pellentesque nec gravida quis, fringilla eget mi. In malesuada placerat diam at posuere lorem concordia. <br/>In facilisis ornare arcu, sodales facilisis neque blandit ac. Ut blandit ipsum quis arcu adipiscing sit amet semper sem feugiat. Nam sed dapibus arcu. Nullam eleifend molestie lectus. Nullam nec risus purus.<br/>Fusce rutrum lectus id nibh ullamcorper aliquet. Pellentesque pretium mauris et augue fringilla non bibendum turpis iaculis. Donec sit amet nunc lorem. Sed fringilla vehicula est at pellentesque. Aenean imperdiet elementum arcu id facilisis. Mauris sed leo eros.<br/>Duis nulla purus, malesuada in gravida sed, viverra at elit. Praesent nec purus sem, non imperdiet quam. Praesent tincidunt tortor eu libero scelerisque quis consequat justo elementum. Maecenas aliquet facilisis ipsum, commodo eleifend odio ultrices et. Maecenas arcu arcu, luctus a laoreet et, fermentum vel lectus. Cras consectetur ipsum venenatis ligula aliquam hendrerit. Suspendisse rhoncus hendrerit fermentum. Ut eget rhoncus purus.<br/>Cras a tellus eu justo lobortis tristique et nec mauris. Etiam tincidunt tellus ut odio elementum adipiscing. Maecenas cursus dolor sit amet leo elementum ut semper velit lobortis. Pellentesque posue<br/>",
+      "author": "oscar",
+      "image": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/03-858x338.jpg",
+      "thumb": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/03-75x75.jpg"
+    },
+    {
+      "id": 3,
+      "date": "01-jan-2021",
+      "title": "nice & clean. the best for your blog!",
+      "content": "Nulla facilisi. In volutpat, orci id eleifend ultrices, eros nisi pellentesque erat, eget dapibus urna orci eu nisi. Pellentesque arcu nisi, pellentesque nec gravida quis, fringilla eget mi. In malesuada placerat diam at posuere.<br/>Morbi non aliquet felis. Nullam lectus risus, pretium eu rhoncus quis, ultrices et dolor.<br/>Cras eget sem vitae velit cursus pulvinar in a urna arcu nisi, pellentesque nec gravida quis, fringilla eget mi. In malesuada placerat diam at posuere lorem concordia. <br/>In facilisis ornare arcu, sodales facilisis neque blandit ac. Ut blandit ipsum quis arcu adipiscing sit amet semper sem feugiat. Nam sed dapibus arcu. Nullam eleifend molestie lectus. Nullam nec risus purus.<br/>Fusce rutrum lectus id nibh ullamcorper aliquet. Pellentesque pretium mauris et augue fringilla non bibendum turpis iaculis. Donec sit amet nunc lorem. Sed fringilla vehicula est at pellentesque. Aenean imperdiet elementum arcu id facilisis. Mauris sed leo eros.<br/>Duis nulla purus, malesuada in gravida sed, viverra at elit. Praesent nec purus sem, non imperdiet quam. Praesent tincidunt tortor eu libero scelerisque quis consequat justo elementum. Maecenas aliquet facilisis ipsum, commodo eleifend odio ultrices et. Maecenas arcu arcu, luctus a laoreet et, fermentum vel lectus. Cras consectetur ipsum venenatis ligula aliquam hendrerit. Suspendisse rhoncus hendrerit fermentum. Ut eget rhoncus purus.<br/>Cras a tellus eu justo lobortis tristique et nec mauris. Etiam tincidunt tellus ut odio elementum adipiscing. Maecenas cursus dolor sit amet leo elementum ut semper velit lobortis. Pellentesque posue<br/>",
+      "author": "wild",
+      "image": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/011.jpg",
+      "thumb": "https://live.yithemes.com/bazar/wp-content/uploads/sites/73/2013/01/011-75x75.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "author": "Antonino Scafri",
+      "content": "Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit"
+    },
+    {
+      "id": 2,
+      "author": "Nicole Mustone",
+      "content": "Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit"
+    },
+    {
+      "id": 3,
+      "author": "Jason Davis",
+      "content": "Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit"
+    },
+    {
+      "id": 4,
+      "author": "Nicole Mustone",
+      "content": "Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit"
+    }
+  ],
+  "categories": [
+    {
+      "category": "bag",
+      "subcategories": ["sport bag", "leather bag", "classic bag"]
+    },
+    { "category": "glasses", "subcategories": [] },
+    { "category": "shoes", "subcategories": [] },
+    { "category": "clothes", "subcategories": [] }
+  ]
+}

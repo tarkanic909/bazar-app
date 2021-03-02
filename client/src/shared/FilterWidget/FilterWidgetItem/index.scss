@@ -1,0 +1,14 @@
+.filter-widget-item {
+  margin-bottom: 5px;
+  font-family: play, serif;
+  text-transform: uppercase;
+}
+
+.filter-widget-item__span:hover {
+  cursor: pointer;
+}
+
+.category__subcategory {
+  padding-left: 10px;
+  border-left: 1px solid var(--border-color);
+}
