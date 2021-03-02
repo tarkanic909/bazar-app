@@ -43,9 +43,11 @@ function ProductsContextProvider({ children }) {
     dispatch({ type: actions.SEARCH_PRODUCT, payload: product });
   };
 
-  function changeTitle(title) {
+  const changeTitle = useRef();
+
+  changeTitle.current = (title) => {
     dispatch({ type: actions.CHANGE_TITLE, payload: title });
-  }
+  };
 
   const [errorProducts, products, isLoadingProducts] = useFetch(
     "/api/products"
