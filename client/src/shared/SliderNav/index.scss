@@ -1,0 +1,25 @@
+.slider-nav {
+  display: flex;
+  list-style-type: none;
+}
+
+.slider-nav__prev {
+  width: 15px;
+  height: 17px;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/theme/assets/images/slider-arrow-testimonial.png")
+    left center no-repeat;
+  text-indent: -9999px;
+}
+
+.slider-nav__next {
+  width: 15px;
+  height: 17px;
+  background: url("https://live.yithemes.com/bazar/wp-content/themes/bazar/theme/assets/images/slider-arrow-testimonial.png")
+    right center no-repeat;
+  text-indent: -9999px;
+}
+
+.slider-nav__prev:hover,
+.slider-nav__next:hover {
+  cursor: pointer;
+}
