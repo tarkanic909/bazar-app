@@ -18,9 +18,12 @@ function ProductItem({ product }) {
         <div className="product-thumbnail__hidden">
           <AddToCart item={product} />
           <div className="product-thumbnail__actions">
-            <a className="product-thumbnail__details" href="/">
+            <Link
+              className="product-thumbnail__details"
+              to={`/product/${product.id}`}
+            >
               Details
-            </a>
+            </Link>
             <a className="product-thumbnail__wishlist" href="/">
               wishlist
             </a>
