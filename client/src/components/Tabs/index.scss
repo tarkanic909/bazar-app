@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  // margin: 0 20px;
+  margin-bottom: 27px;
   border-bottom: 1px solid #dfdfdf;
   color: rgb(116, 115, 115);
   font-size: 1.8rem;
@@ -27,4 +27,32 @@
 .tabs__item--current {
   @extend .tabs__item;
   color: #373736;
+}
+
+.tabs__slider-nav {
+  margin-left: auto;
+  align-self: center;
+}
+
+// Remove left(start) and right(end) padding from inner slider(slick-slider) to behave like justify-content: space-between
+.tabs__slider {
+  @media (min-width: 768px) {
+    width: 102%;
+    margin-left: -1%;
+  }
+}
+
+.tabs__slide {
+  @media (min-width: 768px) {
+    max-width: 90%;
+  }
+}
+
+// Solution for slider overflow hidden
+.tabs__slider .product-thumbnail__hidden {
+  padding-bottom: 5px;
+}
+
+.tabs__slider .product-thumbnail__actions {
+  display: none;
 }

@@ -3,7 +3,8 @@
   margin-bottom: 40px;
   transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
   @media (min-width: 768px) {
-    width: 94%;
+    width: 100%;
+    max-width: initial;
     left: 0%;
     position: relative;
   }
@@ -54,8 +55,8 @@
   @media (min-width: 768px) {
     visibility: hidden;
     position: absolute;
-    left: 0;
-    right: 0;
+    left: -1px;
+    right: -1px;
     border: 1px solid var(--border-color);
     border-top: 0;
     background-color: #fff;
