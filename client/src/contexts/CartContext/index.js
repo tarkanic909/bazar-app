@@ -74,7 +74,6 @@ function CartContextProvider({ children }) {
   const saveItems = useRef();
 
   saveItems.current = () => {
-    console.log(state.items);
     localStorage.setItem(
       "cart",
       JSON.stringify(state.items > 0 ? items : state.items)

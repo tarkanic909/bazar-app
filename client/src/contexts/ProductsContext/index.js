@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useReducer, useRef } from "react";
-import useFetch from "../../hooks/useFetch";
+import fetchApi from "../../services/fetchApi";
 import actions from "./actions";
 import productsReducer from "./productsReducer";
 
@@ -49,29 +49,18 @@ function ProductsContextProvider({ children }) {
     dispatch({ type: actions.CHANGE_TITLE, payload: title });
   };
 
-  const [errorProducts, products, isLoadingProducts] = useFetch(
-    "/api/products"
-  );
-
   useEffect(() => {
-    dispatch({ type: actions.FETCH_PRODUCTS, payload: products });
-    dispatch({ type: actions.FETCH_ERROR, payload: errorProducts });
-    dispatch({ type: actions.LOADING_PRODUCTS, payload: isLoadingProducts });
-    dispatch({ type: actions.SET_FILTERED_PRODUCTS, payload: null });
-  }, [errorProducts, products, isLoadingProducts]);
-
-  // useEffect(() => {
-  //   dispatch({ type: actions.LOADING_PRODUCTS, payload: true });
-  //   dispatch({ type: actions.LOADING_CATEGORIES, payload: true });
-  //   const products = fetchApi("http://localhost:3004/products");
-  //   products
-  //     .then((products) => {
-  //       dispatch({ type: actions.FETCH_PRODUCTS, payload: products });
-  //       dispatch({ type: actions.LOADING_PRODUCTS, payload: false });
-  //     })
-  //     .catch((error) => {
-  //       dispatch({ type: actions.FETCH_ERROR, payload: error.message });
-  //     });
+    dispatch({ type: actions.LOADING_PRODUCTS, payload: true });
+    const products = fetchApi("/api/products");
+    products
+      .then((products) => {
+        dispatch({ type: actions.FETCH_PRODUCTS, payload: products });
+        dispatch({ type: actions.LOADING_PRODUCTS, payload: false });
+      })
+      .catch((error) => {
+        dispatch({ type: actions.FETCH_ERROR, payload: error.message });
+      });
+  }, []);
 
   return (
     <ProductsContext.Provider
