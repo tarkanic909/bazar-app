@@ -3,6 +3,8 @@ import useFetch from "../../hooks/useFetch";
 import Slider from "react-slick";
 import "./index.scss";
 import SliderNav from "../../shared/SliderNav";
+import FetchError from "../../shared/FetchError";
+import Loading from "../../shared/Loading";
 
 function TestimonialWidget() {
   const [error, data, isLoading] = useFetch("/api/testimonials");
@@ -16,21 +18,25 @@ function TestimonialWidget() {
 
   return (
     <div className="TestimonialWidget">
-      <div className="TestimonialWidget__slider">
-        <Slider
-          ref={(slider) => {
-            setSlider(slider);
-          }}
-          autoplay={true}
-          pauseOnHover={false}
-          arrows={false}
-        >
-          {data.map((slide, index) => (
-            <Slide testimonial={slide} />
-          ))}
-        </Slider>
-      </div>
-      <SliderNav clickPrev={handlePrev} clickNext={handleNext} />
+      <FetchError error={error}>
+        <Loading isLoading={isLoading}>
+          <div className="TestimonialWidget__slider">
+            <Slider
+              ref={(slider) => {
+                setSlider(slider);
+              }}
+              autoplay={true}
+              pauseOnHover={false}
+              arrows={false}
+            >
+              {data.map((slide, index) => (
+                <Slide key={index} testimonial={slide} />
+              ))}
+            </Slider>
+          </div>
+          <SliderNav clickPrev={handlePrev} clickNext={handleNext} />
+        </Loading>
+      </FetchError>
     </div>
   );
 }

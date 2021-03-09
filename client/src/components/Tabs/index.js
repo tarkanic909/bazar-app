@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Slider from "react-slick";
 import { ProductsContext } from "../../contexts/ProductsContext";
 import ProductItem from "../../shared/ProductItem";
@@ -74,7 +74,7 @@ function Tabs() {
           slidesToScroll={1}
         >
           {items.map((item) => (
-            <div className="tabs__slide">
+            <div key={item.id} className="tabs__slide">
               <ProductItem product={item} />
             </div>
           ))}
