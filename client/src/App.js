@@ -11,13 +11,15 @@ import CartPage from "./pages/CartPage";
 import BlogPage from "./pages/BlogPage";
 import ProductPage from "./pages/ProductPage";
 import ErrorPage from "./pages/ErrorPage";
+// import CheckoutPage from "./pages/CheckoutPage";
 
 const routes = [
   { path: "/", isExact: true, component: HomePage },
-  { path: "/cart", isExact: false, component: CartPage },
-  { path: "/blog", isExact: false, component: BlogPage },
-  { path: "/shop", isExact: false, component: ShopPage },
+  { path: "/cart", component: CartPage },
+  { path: "/blog", component: BlogPage },
+  { path: "/shop", component: ShopPage },
   { path: "/product/:id", component: ProductPage },
+  // { path: "/checkout", component: CheckoutPage },
 ];
 
 function App() {
@@ -30,32 +32,15 @@ function App() {
               <Switch>
                 {routes.map(({ path, component: Component, isExact }) =>
                   isExact ? (
-                    <Route
-                      key={`${path}-${Component}`}
-                      exact
-                      path={path}
-                      render={(props) => {
-                        return (
-                          <>
-                            <Header />
-                            <Component {...props} />
-                          </>
-                        );
-                      }}
-                    />
+                    <Route exact key={path} path={path}>
+                      <Header />
+                      <Component />
+                    </Route>
                   ) : (
-                    <Route
-                      key={`${path}-${Component}`}
-                      path={path}
-                      render={(props) => {
-                        return (
-                          <>
-                            <Header />
-                            <Component {...props} />
-                          </>
-                        );
-                      }}
-                    />
+                    <Route key={path} path={path}>
+                      <Header />
+                      <Component />
+                    </Route>
                   )
                 )}
                 <Route component={ErrorPage} />
