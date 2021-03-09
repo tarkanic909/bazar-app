@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef } from "react";
+import React, { useContext, useEffect } from "react";
 import { Route } from "react-router-dom";
 import Products from "../../components/Products";
 import SearchedProducts from "../../components/SearchedProducts";
@@ -32,7 +32,6 @@ function ShopPage() {
       </div>
       <div className="shop-page__content">
         <PageTitle>{title}</PageTitle>
-        <Route path="/shop" exact></Route>
         <Route path="/shop/search/:searchedProduct">
           <SearchedProducts />
         </Route>

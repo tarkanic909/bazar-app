@@ -3,23 +3,27 @@ import { Link } from "react-router-dom";
 import { CartContext } from "../../../../contexts/CartContext";
 import CartViewItem from "../CartViewItem";
 import "./index.scss";
+function getFullHeight(element) {
+  const height =
+    getProperty(element, "marginTop") +
+    getProperty(element, "borderTopWidth") +
+    getProperty(element, "borderBottomWidth");
 
+  return height;
+}
+
+function getProperty(element, property) {
+  return parseInt(getComputedStyle(element)[property]);
+}
 function CartView({ show, setShow }) {
   const { cart } = useContext(CartContext);
   const wrapperElement = useRef(null);
   const [height, setHeight] = useState(0);
 
-  function getProperty(element, property) {
-    return parseInt(getComputedStyle(element)[property]);
-  }
-
   useEffect(() => {
     if (show) {
       const wrapper = wrapperElement.current;
-      const offset =
-        getProperty(wrapper, "marginTop") +
-        getProperty(wrapper, "borderTopWidth") +
-        getProperty(wrapper, "borderBottomWidth");
+      const offset = getFullHeight(wrapper);
 
       setHeight(wrapper.clientHeight + offset);
     } else {
@@ -51,7 +55,7 @@ function CartView({ show, setShow }) {
               <span className="cart-view__amount">${cart.total}</span>
             </p>
             <div className="cart-view__buttons">
-              <a className="cart-view__checkout" href="/">
+              <a className="cart-view__checkout" href="/checkout">
                 checkout
               </a>
               <Link className="cart-view__view" to="/cart">

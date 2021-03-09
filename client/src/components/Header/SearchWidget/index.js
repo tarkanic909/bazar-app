@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { useHistory, useLocation, useRouteMatch } from "react-router-dom";
-// import { ProductsContext } from "../../../contexts/ProductsContext";
+import { useHistory, useLocation } from "react-router-dom";
 import "./index.scss";
 
 function SearchWidget() {
-  // const { products } = useContext(ProductsContext);
   const history = useHistory();
   const [value, setValue] = useState("");
   const { pathname } = useLocation();
@@ -17,8 +15,11 @@ function SearchWidget() {
   function handleChange(event) {
     setValue(event.target.value);
   }
+
   useEffect(() => {
-    if (pathname === "/shop") setValue("");
+    if (pathname === "/shop") {
+      setValue("");
+    }
   }, [pathname]);
 
   return (
@@ -42,4 +43,4 @@ function SearchWidget() {
   );
 }
 
-export default SearchWidget;
+export default React.memo(SearchWidget);
